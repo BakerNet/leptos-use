@@ -27,8 +27,8 @@ http0_2 = { version = "0.2", optional = true, package = "http" }
 js-sys = "0.3"
 lazy_static = "1"
 leptos = { git = "https://github.com/leptos-rs/leptos", branch = "2904" }
-leptos_axum = { git = "https://github.com/leptos-rs/leptos", branch = "2904" }
-leptos_actix = { git = "https://github.com/leptos-rs/leptos", branch = "2904" }
+leptos_axum = { git = "https://github.com/leptos-rs/leptos", branch = "2904", optional = true }
+leptos_actix = { git = "https://github.com/leptos-rs/leptos", branch = "2904", optional = true }
 leptos-spin = { version = "0.2", optional = true }
 num = { version = "0.4", optional = true }
 paste = "1"
