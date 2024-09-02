@@ -39,7 +39,7 @@ use crate::{js_fut, use_window};
 ///
 /// ## Server-Side Rendering
 ///
-/// This function does **not** support SSR. Call it inside a `create_effect`.
+/// This function does **not** support SSR. Call it inside a `Effect`.
 pub fn use_service_worker() -> UseServiceWorkerReturn<impl Fn() + Clone, impl Fn() + Clone> {
     use_service_worker_with_options(UseServiceWorkerOptions::default())
 }

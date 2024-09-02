@@ -18,7 +18,7 @@ use std::sync::Arc;
 /// ## Usage
 ///
 /// ```
-/// # use leptos::*;
+/// # use leptos::prelude::*;
 /// # use leptos_use::use_locales;
 /// #
 /// # #[component]

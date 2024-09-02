@@ -20,7 +20,7 @@ In this example, a codec is given to [`use_cookie`](browser/use_cookie.md) that 
 format. Since cookies can only store strings, we have to use string codecs here.
 
 ```rust,noplayground
-# use leptos::*;
+# use leptos::prelude::*;
 # use leptos_use::use_cookie;
 # use serde::{Deserialize, Serialize};
 # use codee::string::JsonCodec;

@@ -148,7 +148,7 @@ where
 
     move || effect.stop()
 
-    // create_effect(move |did_run_before| {
+    // Effect::new(move |did_run_before| {
     //     if !is_active.get() {
     //         return;
     //     }

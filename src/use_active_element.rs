@@ -3,8 +3,8 @@
 use crate::{use_document, use_event_listener_with_options, use_window, UseEventListenerOptions};
 use leptos::ev::{blur, focus};
 use leptos::html::{AnyElement, ToHtmlElement};
-use leptos::reactive_graph::wrappers::read::Signal;
 use leptos::prelude::*;
+use leptos::reactive_graph::wrappers::read::Signal;
 
 /// Reactive `document.activeElement`
 ///
@@ -23,7 +23,7 @@ use leptos::prelude::*;
 /// # fn Demo() -> impl IntoView {
 /// let active_element = use_active_element();
 ///
-/// create_effect(move |_| {
+/// Effect::new(move |_| {
 ///     log!("focus changed to {:?}", active_element.get());
 /// });
 /// #

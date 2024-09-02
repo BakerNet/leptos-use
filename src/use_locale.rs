@@ -19,7 +19,7 @@ use unic_langid::LanguageIdentifier;
 /// ## Usage
 ///
 /// ```
-/// # use leptos::*;
+/// # use leptos::prelude::*;
 /// # use leptos_use::use_locale;
 /// use unic_langid::langid_slice;
 /// #
