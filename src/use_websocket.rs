@@ -429,6 +429,7 @@ where
                                                 #[cfg(debug_assertions)]
                                                 drop(prev);
 
+                                                log::debug!("calling set_message");
                                                 set_message.set(Some(val));
                                             }
                                             Err(err) => {

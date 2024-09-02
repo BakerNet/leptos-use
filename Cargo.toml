@@ -13,6 +13,7 @@ repository = "https://github.com/Synphonyte/leptos-use"
 homepage = "https://leptos-use.rs"
 
 [dependencies]
+log = "0.4"
 actix-web = { version = "4", optional = true, default-features = false }
 async-trait = { version = "0.1", optional = true }
 cfg-if = "1"
