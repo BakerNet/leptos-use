@@ -588,8 +588,10 @@ where
         reconnect_timer_ref.set_value(None);
 
         move || {
+            log::debug!("close called");
             manually_closed_ref.set_value(true);
             if let Some(web_socket) = ws_ref.get_value() {
+                log::debug!("websocket ref found");
                 let _ = web_socket.close();
             }
         }
